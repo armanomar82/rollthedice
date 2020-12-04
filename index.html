@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll The Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="mainAccueil">
+        <h1>Roll The Dice MOFO</h1>
+        <form class="formAccueil" action="app.php" method="post">
+            <label for="chosenDice">Veuillez choisir le nombre de faces de votre dé :</label>
+            <input type="number" name="chosenDice" id="chosenDice" required min="2">
+            <label for="numberOfDice">Veuillez choisir le nombre de dés à lancer :</label>
+            <input type="number" name="numberOfDice" id="numberOfDice" required min="1">
+            <input class="btnLancer" type="submit" value="LANCER">
+        </form>
+    </main>
+</body>
+</html>
